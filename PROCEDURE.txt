@@ -1,0 +1,3 @@
+Please unrar the files then access them through the respective IDE, in this case Android studio..
+Material server side is the one to upload in your server.
+Events is the apk, so unrar them together to get the apk.

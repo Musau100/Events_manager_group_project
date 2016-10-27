@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+
+    defaultConfig {
+        applicationId "com.ryle_tech.materialdesign"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile('com.github.florent37:materialviewpager:1.2.0@aar') {
+        transitive = true
+    }
+    compile files('libs/volley.jar')
+    //    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'me.neavo:vitamio:4.2.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.siyamed:android-shape-imageview:0.9.3'
+    compile 'com.github.jd-alexander:LikeButton:0.2.0'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+    compile 'com.google.android.gms:play-services-appindexing:9.4.0'
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+
+}

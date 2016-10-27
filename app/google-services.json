@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "232191564169",
+    "project_id": "materialdesign-1350"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232191564169:android:e60aeff65cae8072",
+        "android_client_info": {
+          "package_name": "com.sourcey.materiallogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232191564169-r7obroq2nok0ruebq105s283uprts13e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksll-FiQwmQ_tPNFtQ1t7sTmsgeQMnfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232191564169:android:4e4543d87ea14cf0",
+        "android_client_info": {
+          "package_name": "com.ryle_tech.materialdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232191564169-2k1po9sm5u4s55rueopre9tdrkmrgqgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryle_tech.materialdesign",
+            "certificate_hash": "F4F982C56C015562D83DA4B35D019E1E38F01A8D"
+          }
+        },
+        {
+          "client_id": "232191564169-r7obroq2nok0ruebq105s283uprts13e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksll-FiQwmQ_tPNFtQ1t7sTmsgeQMnfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
